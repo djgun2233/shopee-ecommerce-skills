@@ -1,6 +1,6 @@
-# Shopee E-commerce Skills
+# Shopee E-commerce & WeChat Skills
 
-通用 Shopee 商品图片生成与泰国站电商文案技能包。
+通用 Shopee 商品图片、泰国站电商文案与 Windows 微信发送技能包。
 
 This repository contains reusable Codex skills for product-agnostic Shopee
 workflows:
@@ -14,11 +14,16 @@ workflows:
 - `product-description-generator`: Thai listing highlights and detail pages
   grounded in confirmed product facts. See `references/` for the reusable
   Thai Shopee listing template.
+- `wechat-fast-send`: verified Windows WeChat text sending through an existing
+  logged-in desktop window, with dynamic recipient input and screenshot checks.
+- `wechat-fast-file-send`: verified Windows WeChat local-file sending through
+  clipboard file-drop input, dynamic file resolution and screenshot checks.
 
 ## Repository description
 
-Product-agnostic Shopee image-generation and Thai listing skills with
-evidence-based claims, localized copy, prompt manifests, and delivery checks.
+Reusable Shopee image-generation, Thai listing, and verified Windows WeChat
+delivery skills with dynamic inputs, evidence-based checks, and no embedded
+personal data.
 
 ## Design principles
 
@@ -29,6 +34,8 @@ evidence-based claims, localized copy, prompt manifests, and delivery checks.
 5. Review full-size and thumbnail outputs before delivery.
 6. Use the target marketplace language for publishable copy, with Chinese
    translation kept separate for review.
+7. Keep messaging recipients, groups, file paths and message contents dynamic;
+   never embed personal recipients or machine-specific paths in a skill.
 
 The image workflow uses the host's built-in image-generation capability unless
 the user explicitly requests an API. It does not require API keys.
@@ -43,7 +50,8 @@ depends on the Codex installation.
 
 This repository is intentionally product-agnostic. It contains no product
 photos, order data, private prompts, local machine paths, credentials, API
-keys, or project-specific output files.
+keys, WeChat IDs, contact names, message history, or project-specific output
+files.
 
 ## License
 
