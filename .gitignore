@@ -1,0 +1,21 @@
+# Local project data
+work/
+outputs/
+*.log
+*.tmp
+
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Generated/cache files
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
