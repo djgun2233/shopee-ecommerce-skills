@@ -1,0 +1,5 @@
+interface:
+  display_name: "WeChat Fast Send"
+  short_description: "Fast verified Windows WeChat messaging with exact contact selection"
+  default_prompt: "Use $wechat-fast-send to send one exact message to a named WeChat contact."
+
