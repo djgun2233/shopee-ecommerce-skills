@@ -1,0 +1,5 @@
+interface:
+  display_name: "WeChat Fast File Send"
+  short_description: "Fast verified Windows WeChat file sending"
+  default_prompt: "Use $wechat-fast-file-send to send a local file to a named WeChat contact."
+
