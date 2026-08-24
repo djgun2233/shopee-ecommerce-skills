@@ -1,0 +1,5 @@
+interface:
+  display_name: "Shopee Product Imagegen"
+  short_description: "Create consistent Shopee product listing images"
+  default_prompt: "Use $shopee-product-imagegen to create or revise photorealistic Shopee product images with exact reference fidelity, local-language text, and buyer-focused visual evidence."
+
