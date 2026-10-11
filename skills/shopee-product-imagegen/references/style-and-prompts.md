@@ -108,7 +108,7 @@ VISUAL PROOF:
 ## Comparison without competitor references
 
 - Use a supplied competitor photo or specification when the user wants a true competitor comparison.
-- When no competitor reference exists, use a clearly different, unbranded hypothetical competitor-style comparison object for visible structural contrast. Do not add a visible hypothetical label or disclaimer unless the user requests one. Do not add brand names, logos or trademarks.
+- When no competitor reference exists, use a clearly different, unbranded hypothetical competitor-style comparison object for visible structural contrast. For customer-facing comparison images, visibly label the invented object as a hypothetical illustration in the target marketplace language. If that label cannot be shown clearly, omit the invented comparison and use a product-only image instead. A hypothetical object is not evidence about actual competing products. Do not add brand names, logos or trademarks.
 - Compare only observable, confirmed differences such as opening layout, pockets, handles or closures. Do not invent competitor performance, scores, durability, water resistance or universal superiority.
 - When the purpose is rapid buyer comprehension, make the primary product area and its callouts larger. Keep the comparison object secondary in a distinctly bordered, colored or recessed area rather than blending both objects into one continuous photograph. Use one local comparison marker and keep every limitation visibly tied to the comparison side.
 - Follow an explicit user request for a white background when provided, or a marketplace rule that requires it for a primary image; otherwise treat pure white as a review failure for a Shopee set.
